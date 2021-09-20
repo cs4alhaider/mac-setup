@@ -17,7 +17,7 @@ brew install --cask zoom google-chrome alfred notion microsoft-teams airbuddy vi
 - Installing needed packages
 
 ```bash
-brew install carthage fastlane
+brew install carthage fastlane python npm
 ```
 
 ### 2- Installing [Cocoapods](https://cocoapods.org) package manager for iOS/macOS apps
