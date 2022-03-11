@@ -11,7 +11,7 @@
 - Installing Needed Apps
 
 ```bash
-brew install --cask sf-symbols zoom mongodb-realm-studio obsidian brave-browser google-chrome alfred notion microsoft-teams airbuddy visual-studio-code android-studio dbeaver-community docker figma iina postman sourcetree android-studio telegram slack transmission virtualbox virtualbox-extension-pack imazing surge the-unarchiver
+brew install --cask sf-symbols google-chrome alfred visual-studio-code notion zoom mongodb-realm-studio obsidian brave-browser microsoft-teams airbuddy android-studio dbeaver-community docker figma iina postman sourcetree telegram slack transmission virtualbox virtualbox-extension-pack imazing surge the-unarchiver
 ```
 
 - Installing needed packages
