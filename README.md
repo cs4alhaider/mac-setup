@@ -18,7 +18,7 @@ brew install --cask virtualbox sf-symbols google-chrome alfred visual-studio-cod
 - Installing needed packages
 
 ```bash
-brew install carthage fastlane python npm openjdk
+brew install openshift-cli carthage fastlane python npm openjdk
 ```
 
 ### 2- Installing [Cocoapods](https://cocoapods.org) package manager for iOS/macOS apps
