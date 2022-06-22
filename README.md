@@ -74,6 +74,11 @@ sudo gem install cocoapods
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+### 4- Installing npm related tools globally
+```bash
+npm install -g firebase-tools
+```
+
 - Changing the theme to use [jonathan](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#jonathan) by replacing theme name using [sed](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
 
 ```bash
