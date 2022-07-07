@@ -91,7 +91,7 @@ sed -i.bak 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"jonathan\"/g' ~/.zshrc
 brew install zsh-autosuggestions
 ```
 
-### 3- Creating `.profile` file
+### 5- Creating `.profile` file
 
 - Create file for `.profile` and added your `alias` and custom `functions`
 
@@ -105,13 +105,18 @@ vim ~/.profile
 echo "source ~/.profile" >> ~/.zshrc
 ```
 
-### 4- Cloning [Abdullah Alhaider - Xcode Theme colors & fonts](https://github.com/cs4alhaider/XcodeTheme)
+### 6- Cloning [Abdullah Alhaider - Xcode Theme colors & fonts](https://github.com/cs4alhaider/XcodeTheme)
 
 - First let’s install the needed fonts by running the following
 
 ```bash
 git clone https://github.com/adobe-fonts/source-code-pro.git ./Desktop/temp-fonts && cd Desktop/temp-fonts/TTF && mv *.ttf ~/Library/Fonts && cd ~ && rm -rf Desktop/temp-fonts
 
+```
+
+### 7- Adding Xcode extensions
+```
+https://github.com/aheze/Multiliner
 ```
 
 - Now let's add the theme and that’s it!
