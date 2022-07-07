@@ -114,13 +114,11 @@ git clone https://github.com/adobe-fonts/source-code-pro.git ./Desktop/temp-font
 
 ```
 
-### 7- Adding Xcode extensions
-```
-https://github.com/aheze/Multiliner
-```
-
 - Now let's add the theme and that’s it!
 
 ```bash
 git clone https://github.com/cs4alhaider/XcodeTheme.git ./Desktop/temp-theme && cd Desktop/temp-theme && mkdir ~/Library/Developer/Xcode/UserData/FontAndColorThemes && mv *.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes && cd ~ && rm -rf Desktop/temp-theme
 ```
+
+### 7- Adding Xcode extensions
+* [Multiliner](https://github.com/aheze/Multiliner)
