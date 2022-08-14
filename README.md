@@ -44,7 +44,8 @@ raycast \
 little-snitch \
 tableplus \
 sublime-text \
-sublime-merge
+sublime-merge \
+angry-ip-scanner
 ```
 
 - Installing needed packages
