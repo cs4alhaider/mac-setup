@@ -45,7 +45,8 @@ little-snitch \
 tableplus \
 sublime-text \
 sublime-merge \
-angry-ip-scanner
+angry-ip-scanner \
+shottr
 ```
 
 - Installing needed packages
