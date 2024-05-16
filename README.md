@@ -12,7 +12,8 @@
 
 ```bash
 // I moved sf-symbols and virtualbox to the front since they require passwords 
-brew install --cask virtualbox \
+brew install --cask cursor \
+virtualbox \
 sf-symbols \
 google-chrome \
 alfred \
