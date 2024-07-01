@@ -47,7 +47,8 @@ tableplus \
 sublime-text \
 sublime-merge \
 angry-ip-scanner \
-shottr
+shottr \
+wave
 ```
 
 - Installing needed packages
