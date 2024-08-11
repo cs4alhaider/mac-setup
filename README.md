@@ -114,7 +114,12 @@ echo "source ~/.profile" >> ~/.zshrc
 - First let’s install the needed fonts by running the following
 
 ```bash
-git clone https://github.com/adobe-fonts/source-code-pro.git ./Desktop/temp-fonts && cd Desktop/temp-fonts/TTF && mv *.ttf ~/Library/Fonts && cd ~ && rm -rf Desktop/temp-fonts
+git clone --depth 1 https://github.com/adobe-fonts/source-code-pro.git \
+./Desktop/temp-fonts && \
+cd Desktop/temp-fonts/TTF && \
+mv *.ttf ~/Library/Fonts && \
+cd ~ && \
+rm -rf Desktop/temp-fonts
 
 ```
 
