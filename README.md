@@ -48,7 +48,9 @@ sublime-text \
 sublime-merge \
 angry-ip-scanner \
 shottr \
-wave
+wave \
+virtualbuddy \
+corretto
 ```
 
 - Installing needed packages
