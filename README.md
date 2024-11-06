@@ -50,7 +50,8 @@ angry-ip-scanner \
 shottr \
 wave \
 virtualbuddy \
-corretto
+corretto \
+logitech-options 
 ```
 
 - Installing needed packages
@@ -63,7 +64,7 @@ carthage \
 fastlane \
 python \
 npm \
-openjdk
+openjdk 
 ```
 
 - Installing optional quick look packages [here](https://github.com/sindresorhus/quick-look-plugins)
