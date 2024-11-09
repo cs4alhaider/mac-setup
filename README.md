@@ -63,6 +63,7 @@ openshift-cli \
 carthage \
 fastlane \
 python \
+poetry \
 npm \
 openjdk 
 ```
