@@ -134,3 +134,10 @@ git clone https://github.com/cs4alhaider/XcodeTheme.git ./Desktop/temp-theme && 
 
 ### 7- Adding Xcode extensions
 * [Multiliner](https://github.com/aheze/Multiliner)
+
+### 8- Installing [firacode](https://github.com/tonsky/FiraCode) fonts:
+Clone this repo and then:
+```bash
+chmod +x install_firacode_fonts.sh
+./install_firacode_fonts.sh
+```
