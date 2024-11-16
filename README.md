@@ -51,7 +51,8 @@ shottr \
 wave \
 virtualbuddy \
 corretto \
-logitech-options 
+logitech-options \
+google-cloud-sdk
 ```
 
 - Installing needed packages
@@ -66,6 +67,12 @@ python \
 poetry \
 npm \
 openjdk 
+```
+
+- Install Terraform
+```bash
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
 ```
 
 - Installing optional quick look packages [here](https://github.com/sindresorhus/quick-look-plugins)
