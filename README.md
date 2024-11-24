@@ -52,7 +52,8 @@ wave \
 virtualbuddy \
 corretto \
 logitech-options \
-google-cloud-sdk
+google-cloud-sdk \
+insomnia
 ```
 
 - Installing needed packages
