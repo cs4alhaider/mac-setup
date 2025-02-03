@@ -65,6 +65,7 @@ openshift-cli \
 carthage \
 fastlane \
 python \
+go \
 poetry \
 npm \
 openjdk 
