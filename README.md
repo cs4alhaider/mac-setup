@@ -68,6 +68,7 @@ python \
 go \
 poetry \
 npm \
+wget \
 openjdk 
 ```
 
