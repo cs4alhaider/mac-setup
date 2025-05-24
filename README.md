@@ -123,9 +123,25 @@ vim ~/.profile
 echo "source ~/.profile" >> ~/.zshrc
 ```
 
-### 6- Cloning [Abdullah Alhaider - Xcode Theme colors & fonts](https://github.com/cs4alhaider/XcodeTheme)
+### 6- Git Configuration for Swift Package Manager
 
-- First let’s install the needed fonts by running the following
+- Configure Git to allow operations on bare repositories, which fixes issues with Swift Package Manager in Xcode and command line
+
+```bash
+git config --global --add safe.bareRepository all
+```
+
+This configuration resolves the "safe.bareRepository is explicit" error that can occur when:
+- Using Swift Package Manager to resolve dependencies
+- Pulling packages within Xcode projects
+- Running `swift package resolve` from the command line
+- Working with packages that use Git submodules
+
+Without this setting, newer versions of Git (2.35.2+) may block Swift Package Manager operations due to security restrictions.
+
+### 7- Cloning [Abdullah Alhaider - Xcode Theme colors & fonts](https://github.com/cs4alhaider/XcodeTheme)
+
+- First let's install the needed fonts by running the following
 
 ```bash
 git clone --depth 1 https://github.com/adobe-fonts/source-code-pro.git ./Desktop/temp-fonts && \
@@ -136,16 +152,16 @@ rm -rf Desktop/temp-fonts
 
 ```
 
-- Now let's add the theme and that’s it!
+- Now let's add the theme and that's it!
 
 ```bash
-git clone https://github.com/cs4alhaider/XcodeTheme.git ./Desktop/temp-theme && cd Desktop/temp-theme && mkdir ~/Library/Developer/Xcode/UserData/FontAndColorThemes && mv *.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes && cd ~ && rm -rf Desktop/temp-theme
+git clone https://github.com/cs4alhaider/XcodeTheme.git ./Desktop/temp-theme && cd Desktop/temp-theme && mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes && mv *.xccolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes && cd ~ && rm -rf Desktop/temp-theme
 ```
 
-### 7- Adding Xcode extensions
+### 8- Adding Xcode extensions
 * [Multiliner](https://github.com/aheze/Multiliner)
 
-### 8- Installing [firacode](https://github.com/tonsky/FiraCode) fonts:
+### 9- Installing [firacode](https://github.com/tonsky/FiraCode) fonts:
 Clone this repo and then:
 ```bash
 chmod +x install_firacode_fonts.sh
