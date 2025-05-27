@@ -70,7 +70,8 @@ poetry \
 npm \
 wget \
 openjdk \
-xcode-build-server // https://dimillian.medium.com/build-an-ios-app-faster-than-ever-with-xtool-d6dd7780c5f7
+xcode-build-server > https://dimillian.medium.com/build-an-ios-app-faster-than-ever-with-xtool-d6dd7780c5f7
+mise > https://github.com/cameroncooke/XcodeBuildMCP#one-line-setup-with-mise
 ```
 
 - Install Terraform
