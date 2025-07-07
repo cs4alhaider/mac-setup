@@ -169,3 +169,14 @@ Clone this repo and then:
 chmod +x install_firacode_fonts.sh
 ./install_firacode_fonts.sh
 ```
+
+### 10- Installing AI Tools
+- Installing [Claude Code](https://www.anthropic.com/claude)
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+- Installing [Gemini](https://deepmind.google/technologies/gemini/):
+```bash
+npx https://github.com/google-gemini/gemini-cli
+```
